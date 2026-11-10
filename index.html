@@ -4,12 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Heapz OS</title>
+<link rel="icon" id="fav">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <canvas id="stars"></canvas>
 <nav>
-  <a href="#" class="brand"><span class="logo">🪐</span> Heapz OS</a>
+  <a href="#" class="brand"><img class="logo" data-logo alt=""> Heapz OS</a>
   <div class="links">
     <a href="#download">Download</a>
     <a href="#releases">Release Notes</a>
@@ -18,6 +19,7 @@
 </nav>
 
 <header class="hero">
+  <img class="herologo" data-logo alt="Heapz OS logo">
   <h1>Heapz <span class="glow">OS</span></h1>
   <p class="tag">A simulated operating system, built with AI.</p>
   <div class="cta">
@@ -40,13 +42,12 @@
 
 <section id="releases" class="panel">
   <h2>Release Notes</h2>
-  <article class="release">
-    <h3>v1.0 <span class="date">Placeholder</span></h3>
-    <ul><li>First public release.</li><li>Replace these notes with the real ones.</li></ul>
-  </article>
+  <div id="rel-list"><p>Loading releases…</p></div>
 </section>
 
 <footer>© <span id="y"></span> Heapz OS · <a href="https://www.reddit.com/r/HeapzOS/" target="_blank" rel="noopener">r/HeapzOS</a></footer>
+<script src="logo.js"></script>
 <script src="stars.js"></script>
+<script src="releases.js"></script>
 </body>
 </html>
