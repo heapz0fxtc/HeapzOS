@@ -12,3 +12,5 @@ The project website lives in this repo (`index.html`, `style.css`, `stars.js`) a
 
 ## Community
 Join us at [r/HeapzOS](https://www.reddit.com/r/HeapzOS/).
+Join Our Server [Yapin'](https://www.yapin.gg/invite/RpeWdpqNUE)
+Join Our Server [Discord](https://discord.com/invite/puX89xpety)
