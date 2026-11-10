@@ -9,6 +9,7 @@
 </head>
 <body>
 <canvas id="stars"></canvas>
+<div class="nebula"></div>
 <nav>
   <a href="#" class="brand"><img class="logo" data-logo alt=""> Heapz OS</a>
   <div class="links">
@@ -22,6 +23,7 @@
   <img class="herologo" data-logo alt="Heapz OS logo">
   <h1>Heapz <span class="glow">OS</span></h1>
   <p class="tag">A simulated operating system, built with AI.</p>
+  <p id="latest" class="latest"></p>
   <div class="cta">
     <a class="btn primary" href="#download">Download</a>
     <a class="btn" href="#releases">What's new</a>
@@ -29,15 +31,19 @@
 </header>
 
 <section id="features" class="grid">
-  <div class="card"><h3>🌌 Simulated desktop</h3><p>A full OS experience that runs as a simulation.</p></div>
-  <div class="card"><h3>🤖 Made with AI</h3><p>Designed and built with Claude and ChatGPT.</p></div>
-  <div class="card"><h3>🚀 Always evolving</h3><p>New versions, features and fixes regularly.</p></div>
+  <div class="card"><h3>🖥️ Full desktop</h3><p>Taskbar, Start menu, windows you can open, minimize and close.</p></div>
+  <div class="card"><h3>👤 Accounts</h3><p>Create profiles with passwords, avatars and your own background.</p></div>
+  <div class="card"><h3>🧰 Built-in apps</h3><p>File Explorer, Notes, Terminal, Settings and What's New.</p></div>
+  <div class="card"><h3>🎨 Make it yours</h3><p>Light and dark themes, accent colors, and your data is saved.</p></div>
+  <div class="card"><h3>🤖 Made with AI</h3><p>Designed and built by heapz with Claude and ChatGPT.</p></div>
+  <div class="card"><h3>🌐 Runs in your browser</h3><p>Just one HTML file. Nothing to install.</p></div>
 </section>
 
 <section id="download" class="panel">
   <h2>Download</h2>
-  <p>Every version of Heapz OS is on the GitHub Releases page.</p>
-  <a class="btn primary big" id="dl" href="https://github.com/heapz0fxtc/HeapzOS/releases" target="_blank" rel="noopener">Go to Releases ↗</a>
+  <p>Grab the latest build, or browse every version on GitHub.</p>
+  <a class="btn primary big" id="dl-latest" href="https://github.com/heapz0fxtc/HeapzOS/releases/latest">⬇ Download latest</a>
+  <a class="btn big" id="dl" href="https://github.com/heapz0fxtc/HeapzOS/releases" target="_blank" rel="noopener">Go to Releases ↗</a>
 </section>
 
 <section id="releases" class="panel">

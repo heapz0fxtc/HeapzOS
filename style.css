@@ -29,3 +29,12 @@ footer{text-align:center;padding:30px;opacity:.7}
 .release .body{white-space:pre-line;line-height:1.6;opacity:.9;margin-top:8px}
 .release details summary{cursor:pointer;color:#b9a7ff;margin-top:6px}
 .badge{font-size:.7rem;background:#6a3cff;border-radius:999px;padding:2px 8px;margin-left:6px;vertical-align:middle}
+.nebula{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 15% 30%,rgba(140,60,255,.25),transparent 40%),radial-gradient(circle at 85% 20%,rgba(60,140,255,.2),transparent 40%),radial-gradient(circle at 60% 85%,rgba(255,60,200,.15),transparent 45%);animation:drift 30s ease-in-out infinite alternate}
+@keyframes drift{to{transform:scale(1.15) translate(-2%,2%)}}
+.herologo{animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+.latest{font-size:.95rem;opacity:.8;margin:-20px 0 26px}
+.latest b{color:#9fd0ff}
+.card{transition:.25s}.card:hover{transform:translateY(-4px);border-color:#8a5cff;box-shadow:0 0 25px rgba(138,92,255,.35)}
+section{scroll-margin-top:80px}html{scroll-behavior:smooth}
+@media(max-width:600px){nav{flex-direction:column;gap:8px}.links a{margin:0 10px}}
